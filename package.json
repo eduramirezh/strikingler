@@ -1,0 +1,27 @@
+{
+  "author": "Eduardo Ramírez @ejramire",
+  "name": "strikingler",
+  "description": "Download your awesome landing page from strikingly.com and remove strikingly's logo",
+  "keywords": [
+    "strikingly",
+    "parser",
+    "html"
+  ],
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ejramire/strikingler.git"
+  },
+  "main": "./strike.js",
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "dependencies": {
+    "cheerio": "*",
+    "request": "*"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+  }
+}

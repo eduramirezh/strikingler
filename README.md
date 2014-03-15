@@ -1,18 +1,27 @@
-Strikingler
-===========
+# strikingler
 
 Download your awesome landing page from strikingly.com and remove strikingly's logo
 
-Instructions
-------------
+## Getting Started
+Install the module with: `npm install strikingler`
 
-    node strike.js strikinglyUrl filename.html
+```javascript
+var strikingler = require('strikingler');
+strikingler.awesome(); // "awesome"
+```
 
-For example, to download http://www.strikingly.com/site118833-8389-9981/ and save it as index.html in the current folder
+## Documentation
+_(Coming soon)_
 
-    node strike.js http://www.strikingly.com/site118833-8389-9981/ index.html
+## Examples
+_(Coming soon)_
 
-To do
------
-* Fix social media related errors
-* npm command line tool
+## Contributing
+In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
+
+## Release History
+_(Nothing yet)_
+
+## License
+Copyright (c) 2014 Eduardo Ramírez  
+Licensed under the MIT license.

@@ -18,7 +18,8 @@
   },
   "dependencies": {
     "cheerio": "*",
-    "request": "*"
+    "request": "*",
+    "lodash" : "*"
   },
   "devDependencies": {
   },

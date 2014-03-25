@@ -25,10 +25,13 @@ request(url, function (error, response, body) {
       if(err){
         return;
       }
-      conf = JSON.parse(data);
-      _.forEach(conf.url.modifyHTML,function(elem){
-        $(elem.query).html(elem.newValue);
-      } );
+      conf = JSON.parse(data)[url];
+      if (conf.title){
+        $('title').html(conf.title);
+      }
+      if (conf.favicon){
+        $('link[href="http://assets.strikingly.com/assets/favicon.ico"]').attr('href', conf.favicon);
+      }
     } );
 
 

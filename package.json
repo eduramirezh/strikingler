@@ -1,7 +1,7 @@
 {
   "name": "strikingler",
   "description": "Download your awesome landing page from strikingly.com and remove strikingly's logo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/ejramire/strikingler",
   "author": {
     "name": "Eduardo Ramírez",

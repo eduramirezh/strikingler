@@ -30,7 +30,8 @@
   },
   "dependencies": {
     "cheerio": "*",
-    "request": "*"
+    "request": "*",
+    "lodash" : "*"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.4",
